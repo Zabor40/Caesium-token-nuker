@@ -4,8 +4,9 @@
 ## About
 Discord token nuker that removing all friends and guilds
 feel free to use but credit me in code
-please download anarchy wrapper to nuget packages
 
+## Anarchy wrapper
+Please download anarchy wrapper to your packages
 
 This tool is used for educational purposes only. 
 
