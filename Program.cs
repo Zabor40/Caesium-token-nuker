@@ -106,7 +106,7 @@ namespace CaesiumNuker
                 string token = Console.ReadLine();
                 //Login to discord token
                 DiscordClient client = new DiscordClient(token, null);
-                RemoveFriends();
+                RemoveFriends(token);
                 void NUKE()
                 {
 
